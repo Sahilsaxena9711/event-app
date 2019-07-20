@@ -1,0 +1,30 @@
+@import './mainNav';
+@import './variables';
+@import './auth';
+@import './event';
+@import './modal';
+@import './backdrop';
+@import './booking';
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  padding: 0;
+  .main{
+    margin: 4rem  2.5rem;
+
+  }
+}
+
+button{
+  background: $royal-blue;
+  font: inherit;
+  border: 1px solid $royal-blue;
+  border-radius: 3px;
+  color: $white;
+  cursor: pointer;
+  outline: none;
+}
+button:hover {
+  opacity: 0.8;
+}

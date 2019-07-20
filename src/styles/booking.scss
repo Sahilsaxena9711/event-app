@@ -1,0 +1,17 @@
+@import './variables.scss';
+
+.bookingsList{
+    margin: 0 auto;
+    width: 40rem;
+    max-width: 90%;
+    list-style: none;
+    padding: 0;
+    .bookingItem{
+        display: flex;
+        margin: 0.5rem 0;
+        padding: 0.5rem;
+        border: 1px solid $royal-blue;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

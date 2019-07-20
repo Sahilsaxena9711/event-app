@@ -1,0 +1,70 @@
+@import './variables.scss';
+
+.event-container{
+    text-align: center;
+    max-width: 80%;
+    border: 1px solid $royal-blue;
+    padding: 0.5rem;
+    align-items: center;
+    width: 20rem;
+    margin: 2rem auto;
+}
+.event-list{
+    margin-top: 2rem;
+    width: 40rem;
+    max-width: 90%;
+    margin: 2rem auto;
+    list-style: none;
+    padding: 0;
+    .event-list-item{
+        display: flex;
+        justify-content: space-between;
+        margin: 1rem 0;
+        padding: 1rem;
+        border: 1px solid $royal-blue;
+        h1{
+            margin: 0;
+            font-size: 1.5rem;
+            color: $royal-blue;
+        }
+        h2{
+            margin: 0;
+            font-size: 1rem;
+            color: $grey;
+        }
+        p{
+            margin: 0;
+        }
+    }
+}
+
+//Loader
+.spinner{
+    display: flex;
+    justify-content: center
+}
+.lds-dual-ring {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 46px;
+    height: 46px;
+    margin: 1px;
+    border-radius: 50%;
+    border: 5px solid $royal-blue;
+    border-color: $royal-blue transparent $royal-blue transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

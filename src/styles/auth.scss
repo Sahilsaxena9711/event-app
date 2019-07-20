@@ -1,0 +1,27 @@
+@import './variables';
+
+.auth-form{
+    margin: 5rem auto;
+    width: 40rem;
+    max-width: 80%;
+    .formControl{
+        margin:1.5rem;
+        label, input{
+             width: 100%;
+             display: block;
+            }
+            input{
+                height: 30px;
+                font-size: 15px; 
+                border: 1px solid $grey;
+                border-radius: 2px;
+        }
+    }
+    .form-action{
+        margin:1.5rem;
+        button{
+            margin-right: 5rem;
+            padding: 0.25rem 1rem;
+        }
+    }
+}
